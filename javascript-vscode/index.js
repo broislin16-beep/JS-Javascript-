@@ -1,1 +1,3 @@
-alert('um alerta pagina exteernaaaaaaaaa');
+alert("um alerta pagina exteernaaaaaaaaa");
+//fgrgfg
+/*fgvfgfg*/
