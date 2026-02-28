@@ -80,22 +80,77 @@
         <h3>Caminho Relativo dentro do projeto documento</h3> <!-- tag link direto CAMINHO RELATIVO-->
         <h4>Caminho Relativo quanto passar dentro do projeto por pastas e arquivo</h4>
         <br>
-        <a href="Sobre.html">Sobre noss</a>
+        <a href="Sobre.html" target="meuiframe">Sobre noss</a>
         <br> <hr>
         <a href="equipe/dimitri.html"> ir para outra pasta</a>
         <br>
         <a href=""></a> <br><hr>
+
         <h2>Imagens</h2><br>
-        <img src="https://img.olx.com.br/images/11/114693378847729.jpg" width="300" > <!-- tag coloca imagem--> <br>
+        <!-- tag link direto CAMINHO ABSOLUTO de IMAGEM-->
+        <img src="https://img.olx.com.br/images/11/114693378847729.jpg" width="300" > <!-- tag coloca imagem, tirou de um lin web--> <br>
         <img src="https://www.honda.com.br/automoveis/sites/hab/files/2025-07/45_Ambientada_02_150.webp" alt="carro honda civic 2026">
-        <br><!-- alt para deficiente visual, coloque descrição no "alt"-->
+        <br><!-- alt para deficiente visual, coloque descrição no "alt, tirou da web"-->
+        <!-- tag link direto CAMINHO RELATIVO DE IMAGEM-->
         <a href="Sobre.html">
-            <img src="equipe/download.jpg" alt="ford mustang gt">   
+            <img src="equipe/download.jpg" alt="ford mustang gt">    
         </a>
+        <!-- wigth e height PARA TAMANHOS, alt para descrever texto autenativo, para deficient visual, descrever o que esta na tela-->
         
-    <p></p>
-    <p></p>
+        <figure> <!-- tag de imagem porem é melhor para o google indexação-->
+            <img src="" 
+            alt=""
+            width="400px"
+            height="400px"
+            >
+            <figcaption>Imagem do logo</figcaption><!-- tag tipo paragrafo-->
+        </figure>
+        <br><hr>
+    <table width="50%" border="1" > <!-- tag tabela-->
+            <tr><!-- tag linha-->
+                <th>Nome</th><!-- tag coluna para primeira linha-->
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+            <tr>
+                <td>Dimiti</td>
+                <td>30</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>jaoo</td>
+                <td>34</td>
+                <td>90</td>
+            </tr>
+    </table>
     
-    <script src=" index.js"> </script> 
+<br><br><br><hr>
+<h3>Lista Ordenadas e Desordenadas</h3>
+    <h4>Lista Não Ordenadas</h4>
+    <ul><!-- tag lista pode ser transformado em um MENU -->
+        <li>Arroz</li>
+        <li>Feijao</li>
+        <li>Macarrão</li> 
+    </ul>
+    <br>
+    <h4>Lista Ordenadas</h4>
+    <ol> 
+        <li>comida</li>
+        <li>prato</li>
+        <li>churrasco</li>
+    </ol>
+<h3>Iframe</h3><!-- tag Exibir uma pagina HMTL dentro da página HTML, é como se for um mini navegador dentro de outra página -->
+  <!--  <iframe src="Sobre.html" width="50%" height="300" title="Meu Iframe"></iframe> -->
+    <br><hr>
+    <h4>Outro Iframe</h4>
+        <iframe style="border:none;" src="equipe/dimitri.html" width="50%" height="300" title="Meus Iframe"></iframe>    
+    <h4>Outro Iframe Navegador</h4>
+        <iframe src="https://bronli.com" width="100%" height="600" title="teste Iframe"></iframe>    
+    <h4>Outro Iframe Video Youtube</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8zq4kAn_O0?si=2OYTMCfiw79dZDFT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h4>Outro Iframe Video Youtube</h4>
+    <iframe width="100%" src="" name="meuiframe" title="exemplo"></iframe>
+
+    <script src=" index.js"> </script> <!-- No final para não atrapalhar a leitura de o sistema da página -->
 </body>
 </html>
