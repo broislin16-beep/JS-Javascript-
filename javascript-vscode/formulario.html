@@ -43,7 +43,7 @@
         <br><br>
 
         <h2>O que voçê tem em casa</h2> 
-        <input type="checkbox" name="item1" value="TV" id="item1"> <!-- tag tipo checkbo pode marcar multiplar esolhar--> 
+        <input required type="checkbox" name="item1" value="TV" id="item1"> <!-- tag tipo checkbo pode marcar multiplar esolhar--> 
         <label for="item1">TV</label>
         <br>
         <input type="checkbox" name="item2" value="Geladeira" id="item2">
@@ -54,7 +54,7 @@
         <br>
 
         <h2>Escolha uma Cor</h2>
-        <select name="cores"> <!--multiplas escolhas--> 
+        <select required name="cores"> <!--multiplas escolhas--> 
             <option selected disabled value="">Selecione um Cor</option>    
             <option value="azul">Azul</option>
             <option value="amarelo">Amarelo</option>
@@ -65,15 +65,15 @@
         <br>
 
         <h2>Digite uma mensagem de texto</h2>
-        <textarea rows="15" cols="50" name="textolongo" id="" placeholder="Digite aqui sua mensagem">Um texto de exemplo</textarea>
-
+        <textarea required rows="15" cols="50" name="mensagemtexto" id="" placeholder="Digite aqui sua mensagem">Um texto de exemplo</textarea>
+        <br>
         <input type="submit" value="Enviar Formulario"> <!-- tag para enviar conteudo--> 
 
 
 
      </form> <br>
 
-
+     <button>Clique aqui para enviar o Formulario</button>
 
 </body>
 </html>
